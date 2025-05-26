@@ -1,0 +1,201 @@
+{"timestamp":"2025-05-23T02:49:55.619360","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-23T02:49:55.621329","level":"info","event":"Filling up the DagBag from /home/duc/data-pipeplipe-test/dags/youtube_pipepline_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-23T02:49:58.215335Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.215511Z","level":"info","event":" Previous state of the Task instance: queued","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.215624Z","level":"info","event":"Current task name:crawl_youtube","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.215723Z","level":"info","event":"Dag name:youtube_pipeline","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.215828Z","level":"error","event":"2025-05-23 09:49:58,199 - src.crawlers.keyword_generator - ERROR - Error generating keywords: [Errno 2] No such file or directory: '/home/duc/video_pipeline_project/config.yaml'","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.199619","level":"error","event":"Error generating keywords: [Errno 2] No such file or directory: '/home/duc/video_pipeline_project/config.yaml'","logger":"src.crawlers.keyword_generator"}
+{"timestamp":"2025-05-23T02:49:58.404886Z","level":"error","event":"WARNING: [youtube:search] [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000). Retrying (1/3)...","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.409900Z","level":"error","event":"WARNING: [youtube:search] [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000). Retrying (2/3)...","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.415488Z","level":"error","event":"WARNING: [youtube:search] [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000). Retrying (3/3)...","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.420709Z","level":"error","event":"WARNING: [youtube:search] Unable to download webpage: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000) (caused by SSLError('[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U. Giving up after 3 retries","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.431153Z","level":"error","event":"WARNING: [youtube:search] [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000). Retrying (1/3)...","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.438042Z","level":"error","event":"WARNING: [youtube:search] [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000). Retrying (2/3)...","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.443876Z","level":"error","event":"WARNING: [youtube:search] [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000). Retrying (3/3)...","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.453959Z","level":"error","event":"ERROR: Unable to download API page: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000) (caused by SSLError('[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.454196Z","level":"error","event":"2025-05-23 09:49:58,454 - src.utils.error_handler - ERROR - Exception occurred: ERROR: Unable to download API page: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000) (caused by SSLError('[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.454377Z","level":"error","event":"Exception in thread Thread-1 (worker):","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.454484Z","level":"error","event":"Traceback (most recent call last):","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.454577Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 464, in _make_request","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.454187","level":"error","event":"Exception occurred: ERROR: Unable to download API page: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000) (caused by SSLError('[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U","logger":"src.utils.error_handler"}
+{"timestamp":"2025-05-23T02:49:58.454837Z","level":"error","event":"    self._validate_conn(conn)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.454935Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 1093, in _validate_conn","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.455026Z","level":"error","event":"    conn.connect()","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.455111Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/urllib3/connection.py\", line 741, in connect","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.455197Z","level":"error","event":"    sock_and_verified = _ssl_wrap_socket_and_match_hostname(","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.455328Z","level":"error","event":"                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.455430Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/urllib3/connection.py\", line 920, in _ssl_wrap_socket_and_match_hostname","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.455519Z","level":"error","event":"    ssl_sock = ssl_wrap_socket(","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.455602Z","level":"error","event":"               ^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.455687Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/urllib3/util/ssl_.py\", line 460, in ssl_wrap_socket","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.455771Z","level":"error","event":"    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.455860Z","level":"error","event":"               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.455946Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/urllib3/util/ssl_.py\", line 504, in _ssl_wrap_socket_impl","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.456029Z","level":"error","event":"    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.456112Z","level":"error","event":"           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.456200Z","level":"error","event":"  File \"/usr/lib/python3.12/ssl.py\", line 455, in wrap_socket","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.456345Z","level":"error","event":"    return self.sslsocket_class._create(","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.456443Z","level":"error","event":"           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.456531Z","level":"error","event":"  File \"/usr/lib/python3.12/ssl.py\", line 1042, in _create","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.456615Z","level":"error","event":"    self.do_handshake()","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.456699Z","level":"error","event":"  File \"/usr/lib/python3.12/ssl.py\", line 1320, in do_handshake","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.456783Z","level":"error","event":"    self._sslobj.do_handshake()","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.456865Z","level":"error","event":"ssl.SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.456949Z","level":"error","event":"","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.457034Z","level":"error","event":"During handling of the above exception, another exception occurred:","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.457118Z","level":"error","event":"","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.457199Z","level":"error","event":"Traceback (most recent call last):","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.457284Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/requests/adapters.py\", line 667, in send","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.457379Z","level":"error","event":"    resp = conn.urlopen(","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.457462Z","level":"error","event":"           ^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.457544Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 841, in urlopen","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.457688Z","level":"error","event":"    retries = retries.increment(","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.457781Z","level":"error","event":"              ^^^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.457868Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/urllib3/util/retry.py\", line 449, in increment","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.457953Z","level":"error","event":"    raise reraise(type(error), error, _stacktrace)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.458037Z","level":"error","event":"          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.458118Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/urllib3/util/util.py\", line 39, in reraise","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.458207Z","level":"error","event":"    raise value","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.458279Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 787, in urlopen","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.458378Z","level":"error","event":"    response = self._make_request(","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.458479Z","level":"error","event":"               ^^^^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.458561Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 488, in _make_request","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.458636Z","level":"error","event":"    raise new_e","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.458711Z","level":"error","event":"urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.458784Z","level":"error","event":"","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.458857Z","level":"error","event":"During handling of the above exception, another exception occurred:","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.458930Z","level":"error","event":"","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.459005Z","level":"error","event":"Traceback (most recent call last):","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.459079Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/yt_dlp/networking/_requests.py\", line 328, in _send","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.459152Z","level":"error","event":"    requests_res = session.request(","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.459224Z","level":"error","event":"                   ^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.459295Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/requests/sessions.py\", line 589, in request","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.459402Z","level":"error","event":"    resp = self.send(prep, **send_kwargs)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.459491Z","level":"error","event":"           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.459564Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/requests/sessions.py\", line 703, in send","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.459636Z","level":"error","event":"    r = adapter.send(request, **kwargs)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.459766Z","level":"error","event":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.459846Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/requests/adapters.py\", line 711, in send","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.459923Z","level":"error","event":"    raise SSLError(e, request=request)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.459997Z","level":"error","event":"requests.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.460072Z","level":"error","event":"","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.460146Z","level":"error","event":"The above exception was the direct cause of the following exception:","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.460219Z","level":"error","event":"","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.460291Z","level":"error","event":"Traceback (most recent call last):","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.460402Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/yt_dlp/extractor/common.py\", line 902, in _request_webpage","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.460487Z","level":"error","event":"    return self._downloader.urlopen(self._create_request(url_or_request, data, headers, query, extensions))","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.460578Z","level":"error","event":"           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.460662Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/yt_dlp/YoutubeDL.py\", line 4175, in urlopen","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.460755Z","level":"error","event":"    return self._request_director.send(req)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.460828Z","level":"error","event":"           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.460900Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/yt_dlp/networking/common.py\", line 117, in send","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.460973Z","level":"error","event":"    response = handler.send(request)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.461047Z","level":"error","event":"               ^^^^^^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.461120Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/yt_dlp/networking/_helper.py\", line 208, in wrapper","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.461193Z","level":"error","event":"    return func(self, *args, **kwargs)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.461267Z","level":"error","event":"           ^^^^^^^^^^^^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.461364Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/yt_dlp/networking/common.py\", line 340, in send","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.461460Z","level":"error","event":"    return self._send(request)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.461533Z","level":"error","event":"           ^^^^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.461606Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/yt_dlp/networking/_requests.py\", line 346, in _send","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.461680Z","level":"error","event":"    raise SSLError(cause=e) from e","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.461752Z","level":"error","event":"yt_dlp.networking.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.461825Z","level":"error","event":"","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.461901Z","level":"error","event":"During handling of the above exception, another exception occurred:","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.461974Z","level":"error","event":"","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.462067Z","level":"error","event":"Traceback (most recent call last):","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.462150Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/yt_dlp/YoutubeDL.py\", line 1637, in wrapper","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.462232Z","level":"error","event":"    return func(self, *args, **kwargs)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.462314Z","level":"error","event":"           ^^^^^^^^^^^^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.462418Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/yt_dlp/utils/_utils.py\", line 2490, in <lambda>","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.462568Z","level":"error","event":"    return type(self.ydl)._handle_extraction_exceptions(lambda _, i: self._entries[i])(self.ydl, i)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.462693Z","level":"error","event":"                                                                     ~~~~~~~~~~~~~^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.462778Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/yt_dlp/utils/_utils.py\", line 2255, in __getitem__","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.462863Z","level":"error","event":"    self._cache.extend(itertools.islice(self._iterable, n))","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.462946Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/yt_dlp/extractor/youtube.py\", line 5998, in _search_results","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.463028Z","level":"error","event":"    search = self._extract_response(","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.463112Z","level":"error","event":"             ^^^^^^^^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.463197Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/yt_dlp/extractor/youtube.py\", line 1140, in _extract_response","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.463281Z","level":"error","event":"    next(main_retries)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.463372Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/yt_dlp/utils/_utils.py\", line 5254, in __iter__","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.463485Z","level":"error","event":"    self.error_callback(self.error, self.attempt, self.retries)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.463601Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/yt_dlp/extractor/common.py\", line 3900, in _error_or_warning","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.463729Z","level":"error","event":"    RetryManager.report_retry(","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.463818Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/yt_dlp/utils/_utils.py\", line 5262, in report_retry","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.464265Z","level":"error","event":"    raise e","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.464395Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/yt_dlp/extractor/youtube.py\", line 1130, in _extract_response","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.464539Z","level":"error","event":"    response = self._call_api(","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.464638Z","level":"error","event":"               ^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.464713Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/yt_dlp/extractor/youtube.py\", line 717, in _call_api","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.464818Z","level":"error","event":"    return self._download_json(","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.464896Z","level":"error","event":"           ^^^^^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.464968Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/yt_dlp/extractor/common.py\", line 1143, in download_content","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.465074Z","level":"error","event":"    res = getattr(self, download_handle.__name__)(url_or_request, video_id, **kwargs)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.465157Z","level":"error","event":"          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.465231Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/yt_dlp/extractor/common.py\", line 1101, in download_handle","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.465367Z","level":"error","event":"    res = self._download_webpage_handle(","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.465468Z","level":"error","event":"          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.465543Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/yt_dlp/extractor/common.py\", line 966, in _download_webpage_handle","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.465616Z","level":"error","event":"    urlh = self._request_webpage(url_or_request, video_id, note, errnote, fatal, data=data,","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.465689Z","level":"error","event":"           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.465761Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/yt_dlp/extractor/common.py\", line 915, in _request_webpage","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.465874Z","level":"error","event":"    raise ExtractorError(errmsg, cause=err)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.465954Z","level":"error","event":"yt_dlp.utils.ExtractorError: Unable to download API page: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000) (caused by SSLError('[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.466033Z","level":"error","event":"","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.466107Z","level":"error","event":"During handling of the above exception, another exception occurred:","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.466181Z","level":"error","event":"","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.466255Z","level":"error","event":"Traceback (most recent call last):","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.466328Z","level":"error","event":"  File \"/usr/lib/python3.12/threading.py\", line 1073, in _bootstrap_inner","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.466449Z","level":"error","event":"    self.run()","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.466523Z","level":"error","event":"  File \"/usr/lib/python3.12/threading.py\", line 1010, in run","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.466595Z","level":"error","event":"    self._target(*self._args, **self._kwargs)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.466668Z","level":"error","event":"  File \"/home/duc/data-pipeplipe-test/src/crawlers/multi_thread_crawler.py\", line 19, in worker","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.466771Z","level":"error","event":"    frames = crawl_youtube(keywords, max_frames)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.466905Z","level":"error","event":"             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.466995Z","level":"error","event":"  File \"/home/duc/data-pipeplipe-test/src/crawlers/youtube_crawler.py\", line 62, in crawl_youtube","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.467086Z","level":"error","event":"    handle_error(e)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.467170Z","level":"error","event":"  File \"/home/duc/data-pipeplipe-test/src/utils/error_handler.py\", line 8, in handle_error","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.467252Z","level":"error","event":"    raise exception","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.467348Z","level":"error","event":"  File \"/home/duc/data-pipeplipe-test/src/crawlers/youtube_crawler.py\", line 26, in crawl_youtube","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.467438Z","level":"error","event":"    result = ydl.extract_info(search_url, download=True)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.467524Z","level":"error","event":"             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.467607Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/yt_dlp/YoutubeDL.py\", line 1626, in extract_info","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.467689Z","level":"error","event":"    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.467771Z","level":"error","event":"           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.467853Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/yt_dlp/YoutubeDL.py\", line 1637, in wrapper","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.467935Z","level":"error","event":"    return func(self, *args, **kwargs)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.468018Z","level":"error","event":"           ^^^^^^^^^^^^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.468102Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/yt_dlp/YoutubeDL.py\", line 1793, in __extract_info","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.468233Z","level":"error","event":"    return self.process_ie_result(ie_result, download, extra_info)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.468323Z","level":"error","event":"           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.468417Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/yt_dlp/YoutubeDL.py\", line 1922, in process_ie_result","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.468501Z","level":"error","event":"    return self.__process_playlist(ie_result, download)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.468582Z","level":"error","event":"           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.468665Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/yt_dlp/YoutubeDL.py\", line 2000, in __process_playlist","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.468746Z","level":"error","event":"    entries = resolved_entries = list(entries)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.468827Z","level":"error","event":"                                 ^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.468909Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/yt_dlp/utils/_utils.py\", line 771, in _iter","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.468992Z","level":"error","event":"    for x in iterable:","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.469079Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/yt_dlp/utils/_utils.py\", line 2455, in get_requested_items","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.469205Z","level":"error","event":"    for i, entry in self[index]:","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.469296Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/yt_dlp/utils/_utils.py\", line 2517, in __getitem__","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.469392Z","level":"error","event":"    entry = self._getter(i)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.469477Z","level":"error","event":"            ^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.469560Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/yt_dlp/utils/_utils.py\", line 2490, in get_entry","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.469643Z","level":"error","event":"    return type(self.ydl)._handle_extraction_exceptions(lambda _, i: self._entries[i])(self.ydl, i)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.469726Z","level":"error","event":"           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.469807Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/yt_dlp/YoutubeDL.py\", line 1655, in wrapper","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.469928Z","level":"error","event":"    self.report_error(str(e), e.format_traceback())","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.470017Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/yt_dlp/YoutubeDL.py\", line 1095, in report_error","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.470102Z","level":"error","event":"    self.trouble(f'{self._format_err(\"ERROR:\", self.Styles.ERROR)} {message}', *args, **kwargs)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.470185Z","level":"error","event":"  File \"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/yt_dlp/YoutubeDL.py\", line 1034, in trouble","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.470305Z","level":"error","event":"    raise DownloadError(message, exc_info)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.470409Z","level":"error","event":"yt_dlp.utils.DownloadError: ERROR: Unable to download API page: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000) (caused by SSLError('[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.470497Z","level":"error","event":"2025-05-23 09:49:58,470 - src.crawlers.multi_thread_crawler - INFO - Total frames collected from ['youtube']: 0","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.470305","level":"info","event":"Total frames collected from ['youtube']: 0","logger":"src.crawlers.multi_thread_crawler"}
+{"timestamp":"2025-05-23T02:49:58.470488","level":"info","event":"Done. Returned value was: []","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-05-23T02:49:58.470680","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('0196fb0c-13e3-7265-ba3e-47ba43d7ffdb'), task_id='crawl_youtube', dag_id='youtube_pipeline', run_id='manual__2025-05-23T02:49:54.892122+00:00', try_number=1, map_index=-1, hostname='Oreo', context_carrier=None, task=<Task(PythonOperator): crawl_youtube>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=0, start_date=datetime.datetime(2025, 5, 23, 2, 49, 55, 471698, tzinfo=TzInfo(UTC)), end_date=None, is_mapped=False)","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.497815Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.497978Z","level":"info","event":" Previous state of the Task instance: running","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:58.498094Z","level":"info","event":"Task operator:<Task(PythonOperator): crawl_youtube>","chan":"stdout","logger":"task"}

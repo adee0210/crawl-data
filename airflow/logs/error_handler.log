@@ -1,0 +1,13 @@
+2025-05-23 08:08:15,243 - src.utils.error_handler - ERROR - Exception occurred: ERROR: The downloaded file is empty
+2025-05-23 08:08:21,049 - src.utils.error_handler - ERROR - Exception occurred: HTTP Error 404: Not Found
+2025-05-23 08:08:32,144 - src.utils.error_handler - ERROR - Exception occurred: [Errno 2] No such file or directory: '/tmp/youtube_video.mp4'
+2025-05-23 08:08:35,984 - src.utils.error_handler - ERROR - Exception occurred: HTTP Error 404: Not Found
+2025-05-23 08:20:49,817 - src.utils.error_handler - ERROR - Exception occurred: [Errno 2] No such file or directory: '/tmp/youtube_video.mp4'
+2025-05-23 08:21:09,839 - src.utils.error_handler - ERROR - Exception occurred: expected string or bytes-like object, got 'NoneType'
+2025-05-23 09:47:34,360 - src.utils.error_handler - ERROR - Exception occurred: ERROR: [youtube] z8GgKWbhvmA: Failed to extract any player response; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+2025-05-23 09:47:52,636 - src.utils.error_handler - ERROR - Exception occurred: expected string or bytes-like object, got 'NoneType'
+2025-05-23 09:49:42,309 - src.utils.error_handler - ERROR - Exception occurred: ERROR: Unable to download API page: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000) (caused by SSLError('[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+2025-05-23 09:49:50,365 - src.utils.error_handler - ERROR - Exception occurred: expected string or bytes-like object, got 'NoneType'
+2025-05-23 09:49:58,454 - src.utils.error_handler - ERROR - Exception occurred: ERROR: Unable to download API page: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000) (caused by SSLError('[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+2025-05-23 09:50:09,789 - src.utils.error_handler - ERROR - Exception occurred: expected string or bytes-like object, got 'NoneType'
+2025-05-23 10:15:24,547 - src.utils.error_handler - ERROR - Exception occurred: expected string or bytes-like object, got 'NoneType'

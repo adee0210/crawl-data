@@ -1,0 +1,55 @@
+{"timestamp":"2025-05-23T02:49:43.321426","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-23T02:49:43.322802","level":"info","event":"Filling up the DagBag from /home/duc/data-pipeplipe-test/dags/youtube_pipepline_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-23T02:49:45.877948Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:45.878074Z","level":"info","event":" Previous state of the Task instance: queued","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:45.878149Z","level":"info","event":"Current task name:process_frames","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:45.878213Z","level":"info","event":"Dag name:youtube_pipeline","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:46.186390Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:47.611336Z","level":"info","event":"0: 640x512 7 persons, 186.5ms","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:47.611844Z","level":"info","event":"Speed: 6.1ms preprocess, 186.5ms inference, 2.3ms postprocess per image at shape (1, 3, 640, 512)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:47.617945Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:47.791307Z","level":"info","event":"0: 640x512 6 persons, 167.2ms","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:47.791470Z","level":"info","event":"Speed: 3.2ms preprocess, 167.2ms inference, 1.1ms postprocess per image at shape (1, 3, 640, 512)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:47.797386Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:47.969420Z","level":"info","event":"0: 640x512 1 person, 167.8ms","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:47.969687Z","level":"info","event":"Speed: 3.1ms preprocess, 167.8ms inference, 1.0ms postprocess per image at shape (1, 3, 640, 512)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:47.977390Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:48.207505Z","level":"info","event":"0: 640x512 4 persons, 1 sports ball, 224.6ms","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:48.208719Z","level":"info","event":"Speed: 3.2ms preprocess, 224.6ms inference, 1.8ms postprocess per image at shape (1, 3, 640, 512)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:48.214748Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:48.389793Z","level":"info","event":"0: 640x512 4 persons, 2 sports balls, 169.6ms","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:48.389945Z","level":"info","event":"Speed: 3.1ms preprocess, 169.6ms inference, 1.2ms postprocess per image at shape (1, 3, 640, 512)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:48.441814Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:48.576530Z","level":"info","event":"0: 640x512 5 persons, 176.0ms","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:48.577142Z","level":"info","event":"Speed: 3.1ms preprocess, 176.0ms inference, 1.1ms postprocess per image at shape (1, 3, 640, 512)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:48.581609Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:48.757532Z","level":"info","event":"0: 640x512 2 persons, 170.8ms","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:48.757685Z","level":"info","event":"Speed: 3.0ms preprocess, 170.8ms inference, 1.1ms postprocess per image at shape (1, 3, 640, 512)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:48.763957Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:48.937241Z","level":"info","event":"0: 640x512 2 persons, 1 sports ball, 169.3ms","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:48.938007Z","level":"info","event":"Speed: 3.0ms preprocess, 169.3ms inference, 1.1ms postprocess per image at shape (1, 3, 640, 512)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:48.942970Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:49.132976Z","level":"info","event":"0: 640x512 2 persons, 1 motorcycle, 182.8ms","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:49.133133Z","level":"info","event":"Speed: 2.9ms preprocess, 182.8ms inference, 1.0ms postprocess per image at shape (1, 3, 640, 512)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:49.140015Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:49.365620Z","level":"info","event":"0: 640x512 2 persons, 1 sports ball, 220.4ms","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:49.366202Z","level":"info","event":"Speed: 3.2ms preprocess, 220.4ms inference, 1.1ms postprocess per image at shape (1, 3, 640, 512)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:49.371808Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:49.589603Z","level":"info","event":"0: 640x512 3 persons, 212.5ms","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:49.589971Z","level":"info","event":"Speed: 3.2ms preprocess, 212.5ms inference, 1.2ms postprocess per image at shape (1, 3, 640, 512)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:49.595787Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:49.775806Z","level":"info","event":"0: 640x512 2 persons, 1 sports ball, 175.2ms","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:49.776138Z","level":"info","event":"Speed: 2.9ms preprocess, 175.2ms inference, 1.1ms postprocess per image at shape (1, 3, 640, 512)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:49.788434Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:49.971398Z","level":"info","event":"0: 640x512 1 person, 1 frisbee, 181.5ms","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:49.971995Z","level":"info","event":"Speed: 3.2ms preprocess, 181.5ms inference, 1.3ms postprocess per image at shape (1, 3, 640, 512)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:49.977952Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:50.199614Z","level":"info","event":"0: 640x512 3 persons, 216.4ms","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:50.199950Z","level":"info","event":"Speed: 3.2ms preprocess, 216.4ms inference, 1.1ms postprocess per image at shape (1, 3, 640, 512)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:50.366156Z","level":"error","event":"2025-05-23 09:49:50,365 - src.utils.error_handler - ERROR - Exception occurred: expected string or bytes-like object, got 'NoneType'","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-23T02:49:50.366178","level":"error","event":"Exception occurred: expected string or bytes-like object, got 'NoneType'","logger":"src.utils.error_handler"}
+{"timestamp":"2025-05-23T02:49:50.366330","level":"error","event":"Task failed with exception","logger":"task","error_detail":[{"exc_type":"TypeError","exc_value":"expected string or bytes-like object, got 'NoneType'","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":825,"name":"run"},{"filename":"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":1088,"name":"_execute_task"},{"filename":"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/airflow/sdk/bases/operator.py","lineno":408,"name":"wrapper"},{"filename":"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":212,"name":"execute"},{"filename":"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":235,"name":"execute_callable"},{"filename":"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/airflow/sdk/execution_time/callback_runner.py","lineno":81,"name":"run"},{"filename":"/home/duc/data-pipeplipe-test/src/processors/frame_processor.py","lineno":65,"name":"process_frames"},{"filename":"/home/duc/data-pipeplipe-test/src/utils/error_handler.py","lineno":8,"name":"handle_error"},{"filename":"/home/duc/data-pipeplipe-test/src/processors/frame_processor.py","lineno":53,"name":"process_frames"},{"filename":"/home/duc/data-pipeplipe-test/src/storage/s3_storage.py","lineno":12,"name":"upload_to_s3"},{"filename":"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/boto3/s3/inject.py","lineno":145,"name":"upload_file"},{"filename":"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/boto3/s3/transfer.py","lineno":368,"name":"upload_file"},{"filename":"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/s3transfer/manager.py","lineno":337,"name":"upload"},{"filename":"/home/duc/.python_envs/global_env/lib/python3.12/site-packages/s3transfer/manager.py","lineno":506,"name":"_validate_if_bucket_supported"}]}]}
+{"timestamp":"2025-05-23T02:49:50.367524Z","level":"info","event":"Task instance in failure state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:50.367688Z","level":"info","event":"Task start","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:50.367794Z","level":"info","event":"Task:<Task(PythonOperator): process_frames>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-23T02:49:50.367881Z","level":"info","event":"Failure caused by expected string or bytes-like object, got 'NoneType'","chan":"stdout","logger":"task"}

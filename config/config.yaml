@@ -1,0 +1,11 @@
+keywords:
+  - football
+  - soccer
+  - match highlights
+  - goal compilation
+max_frames_per_source: 1000
+enabled_sources:
+  - youtube
+  - vimeo
+  - api
+  - web
