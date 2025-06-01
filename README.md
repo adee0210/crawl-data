@@ -34,4 +34,40 @@ Suggestions are always welcome!
 - **Extensibility**: Easily add new data sources or processing tasks.
 
 ## Project Structure
-The directory structure of the project looks like this:
+.
+├── .github                   # GitHub Actions workflows (if added later)
+│
+├── dags                      # Airflow DAGs
+│   ├── api_pipeline_dag.py   # DAG for API data fetching
+│   ├── vimeo_pipeline_dag.py # DAG for Vimeo video crawling
+│   ├── web_pipeline_dag.py   # DAG for web data crawling
+│   └── youtube_pipeline_dag.py # DAG for YouTube video crawling and processing
+│
+├── src                       # Source code
+│   ├── crawlers              # Crawler scripts
+│   │   ├── api_crawler.py
+│   │   ├── vimeo_crawler.py
+│   │   ├── web_crawler.py
+│   │   └── youtube_crawler.py
+│   │
+│   ├── processors            # Processing scripts
+│   │   └── frame_processor.py
+│   │
+│   └── utils                 # Utility scripts
+│       ├── error_handler.py
+│       └── logger.py
+│
+├── videos                    # Directory for downloaded videos
+│
+├── airflow                   # Airflow configuration and logs
+│   ├── logs                  # Airflow logs
+│   └── airflow.cfg           # Airflow configuration
+│
+├── tests                     # Tests (to be added)
+│
+├── .dockerignore             # Files ignored by Docker
+├── .gitignore                # Files ignored by Git
+├── docker-compose.yml        # Docker Compose configuration
+├── Dockerfile                # Dockerfile for building Airflow image
+├── requirements.txt          # Python dependencies
+└── README.md
